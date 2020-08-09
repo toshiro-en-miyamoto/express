@@ -5,3 +5,5 @@
 * $ npm init
 * $ npm install express
 * $ npm install express-handlebars
+# Chapter 4. Tidying Up
+* packaging fortunes in modules
