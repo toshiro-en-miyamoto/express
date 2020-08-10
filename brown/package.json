@@ -4,7 +4,8 @@
   "description": "Meadowlark Travel",
   "main": "meadowlark.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint meadowlark.js lib"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "jest": "^26.2.2",
+    "portfinder": "^1.0.28",
+    "puppeteer": "^5.2.1"
   }
 }
